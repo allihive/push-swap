@@ -1,0 +1,9 @@
+.DS_Store
+checker_Mac
+checker_Mac (1)
+*.o
+.*
+*.txt
+*.sh
+/push_swap_tester
+!.gitignore
