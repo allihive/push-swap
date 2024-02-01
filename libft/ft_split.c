@@ -19,7 +19,7 @@ static int	count_words(const char *s, char c)
 
 	i = 0;
 	words = 0;
-	if (s[i] == '0')
+	if (!s)
 		return (0);
 	while (s[i] != '\0')
 	{
